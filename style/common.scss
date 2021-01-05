@@ -1,0 +1,132 @@
+// common.scss
+// compile with dart tool: dart compile-sass.dart style/file.scss style/file.css
+
+// Override standard Bootstrap Colors
+$theme-colors: (
+        "primary": #262A46,
+        "secondary": #d3d8e7,
+        "light-brown": #E5CBB8,
+        "medium-brown": #AD8A7E,
+        "dark-brown": #7A5654,
+        "danger": #ff4136,
+        "nav-link": rgba(0, 0, 0, 0.5)
+);
+
+// Bootstrap and its default variables TODO: Change this to only be the packages I need
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// global styles
+* {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+a {
+   color: #AD2A1A;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #E5CBB8;
+}
+
+.row {
+    margin-top: 50px;
+}
+// @media only screen and (min-height: 600px) {
+//   #home-preview {
+//     height: 500px;
+//   }
+
+//   #home-preview-text {
+//       display: none;
+//   }
+// }
+
+@media only screen and (min-height: 800px) {
+  #home-preview {
+    height: 700px;
+  }
+}
+
+
+.auto {
+    margin: auto;
+}
+
+nav .top {
+    position: fixed;
+}
+
+#entrp-video {
+    float: right;
+    margin-right: 20px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#newsletter {
+    text-align: left;
+    
+    button {
+        width:100%
+    }
+}
+
+.fa {
+    padding: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.space-in-col {
+    margin: 5px;
+}
+
+/*------------------------------Footer--------------------------------*/
+footer {
+    .no-margin {
+        margin: 0;
+        bottom: 0px;
+    }
+
+    #copyright {
+        border-top: 1px solid #000;
+    }
+
+    a {
+        color:rgba(0, 0, 0, 0.5);
+    }
+
+    a:hover {
+        color: #262A46; //primary
+    }
+
+    .footer-nav li {
+        display: inline-block;
+        margin: .2em 1em;
+        padding: 1em;
+
+        a {
+            color:rgba(0, 0, 0, 0.5);
+        }
+
+        a.active-foot {
+            color: #262A46; //primary
+        }
+
+        a:hover {
+            color: #262A46; //primary
+        }
+    }
+}
+
+.align-bottom {
+    margin: auto;
+}
+

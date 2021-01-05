@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>AJ Trantham</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!--Style-->
+  <!-- Need to call my custom.scss file before the bootstrap file in order to override the theme. -->
+  <link rel="stylesheet" href="C:\Users\ajtre\Desktop\WebDev\Projects\PersonalSite\style\custom.css">
+<!-- TODO: DON'T WANT TO INCLUDE THIS ONE AS IT IS UNMODIFIED BOOTSTRAP: BUT I DO WANT TO MINIFY MY CHANGES WITH A BUILD TOO OR SOMETHIGN LIKE THAT??
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./style/common.css"> <!--TODO: Will need to change from local OR USE PATH-->
+  <link rel="stylesheet" href="style/home.css">
+  <!--JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src=""></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<nav class=" color1 navbar navbar-expand-sm bg-secondary navbar-light">
+    <a class="navbar-brand" href="#">
+        <img src="style/logo2.svg" alt="AJ Logo" height="50" width="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/AJ-Trantham">Code</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+    <!-- <div id="home-preview" class="jumbotron text-center img-fluid main-content">
+        <div id="home-preview-text">
+            <h1>AJ Trantham</h1>
+        </div>
+    </div> -->
+    
+    <div class="container main-content">
+        <div class="row">
+            <div id="about" class="col-sm-8 auto">
+                <h2>About Me</h2>
+                <!--<h5>Photo of me:</h5>-->
+                <p> Hello! My name is AJ. I am currently a student at <a class="primary-light" href="https://www.boisestate.edu/coen-cs/">Boise State University</a> where I am studying Computer Science, Cyber Security and
+                    Electrical Engineering. Along with these topics I am interested in music, audio programming, web development and entrepreneurship. I play guitar for a Boise Band called
+                    <a class="primary-light" href="https://thegovernorsband.com">The Governors.</a>
+                    You can hear our music on our <a href="https://www.youtube.com/channel/UCAZVbspkJnzMIxpMDwugdYA">YouTube page.</a> I hope you enjoy your visit to my site
+                    and please do not hesitate to contact me.
+                </p>
+            </div>
+            <div class="col-sm-4 auto">
+                <img src="style/watch-capital.jpg" alt="AJ with Boise Capitol Building" class="img-fluid">
+            </div>
+        </div>
+      
+        <div class="row">
+            <div class="col-sm-4 justify-content-center">
+                <h3 class="text-center">Interests</h3>
+                <div class=" d-flex justify-content-center auto">
+                    <ul>
+                        <li>Audio Programming</li>
+                    <li>Object Oriented Design</li>
+                    <li>Web Design and Web Security</li>
+                    <li>Music Production and Technology</li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="col-sm-3 justify-content-center">
+                <h3 class="text-center">Hobbies</h3>
+                <div class=" d-flex justify-content-center auto">
+                    <ul >
+                        <li>Rock Climbing</li>
+                        <li>Fly Fishing</li>
+                        <li>Playing Guitar</li>
+                        <li>Backpacking</li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="col-sm-5 justify-content-center">
+                <h3 class="text-center">Favorite Books</h3>
+                <div class=" d-flex justify-content-center auto">
+                    <ul>
+                        <li>The 7 Habits of Highly Effective People - Stephen Covey</li>
+                        <li>How to Win Friends and Influence People - Dale Carnegie</li>
+                        <li>Let my People go Surfing - Yvon Chouinard </li>
+                        <li>Perelandra - C.S. Lewis</li>
+                    </ul>
+                </div> 
+            </div>
+            
+        </div>
+    
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Entreprenurial Insights</h2>
+                <p> In my efforts to grow my knowledge of entreprenurship,
+                    I have created a series of inteviews with entreprenurs at various stages in their ventures. I invite you to
+                    hear
+                    their stories and learn from their knowledge. Check out Entreprenurial Insights today.
+                </p>
+                <p>If you are or know an entreprenur who would be interested in being a part of Entreprenurial Insights,
+                    I would love to hear from you.</p>
+            </div>
+            <div class="col-sm-8 ">
+                
+                <div id="entrp-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NlTPy7OuSBU" frameborder="0"
+                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+<!------------------------------------------------------------footer--------------------------------------------------------------->
+<footer id="footer" class="bg-secondary">
+    <div class="container text-center ">
+        <div class="row">
+            <!-- Social Medias Let's do icons-->
+            <div class="col-sm-4">
+                <h4>Let's Stay Connected</h4>
+                <div class="auto center-text">
+                    <a href="https://www.linkedin.com/in/aj-trantham/" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/channel/UCcE3G_ZhLmxV4fNTElT70tg" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/aj_trantham/" class="fa fa-instagram"></a>
+                    <a href="https://github.com/AJ-Trantham" class="fa fa-github"></a>
+                </div>
+                <p><a href='mailto:ajtrantham@gmail.com'>ajtrantham@gmail.com</a></p>
+            </div>
+
+            <div class="col-sm-8">
+                <h4>Navigation</h4>
+                <nav>
+                    <ul class=" footer-nav navbar-light " >
+                        <li class="">
+                            <a class="active-foot" href="index.html#about">About</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="projects.html">Projects</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="https://github.com/AJ-Trantham">Code</a>
+                        </li>
+                        <li class="">
+                                <a class="" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div id="copyright" class="row no-margin">
+            <p class="auto">&copy;AJ Trantham 2020</p>
+        </div>
+    </div>    
+</footer>
+</body>
+</html>

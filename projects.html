@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AJ Trantham</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Style-->
+    <!-- Need to call my custom.scss file before the bootstrap file in order to override the theme. -->
+    <link rel="stylesheet" href="C:\Users\ajtre\Desktop\WebDev\Projects\PersonalSite\style\custom.css">
+    <!-- TODO: DON'T WANT TO INCLUDE THIS ONE AS IT IS UNMODIFIED BOOTSTRAP: BUT I DO WANT TO MINIFY MY CHANGES WITH A BUILD TOO OR SOMETHIGN LIKE THAT??
+      <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/projects.css">
+    <!--JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src=""></script>
+</head>
+<body>
+
+<!---------------------------------------------------Nav--------------------------------------------------------------->
+<nav class=" navbar navbar-expand-sm bg-secondary navbar-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="style/logo2.svg" alt="AJ Logo" height="50" width="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto" >
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+           <li class="nav-item">
+                <a class="nav-link" href="https://github.com/AJ-Trantham">Code</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!---------------------------------------------------------Page Content------------------------------------------------------------->
+<div class="container main-content">
+    <h1>My Projects</h1>
+
+    <h3>Computer Science Projects</h3>
+
+<!--    TODO: add collapsable features for each section or a carocel of projects-->
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card space-in-col h-100">
+                <img class="card-img-top" src="images/suits.jpg" alt="Picture of AJ with AR headset">
+                <div class="card-body">
+                    <h2>NASA SUITS Augmented Reality System</h2>
+                    <p class="card-text">
+                        In this project I worked with an interdisciplinary team of Boise State students to design a heads-up
+                        display system within an AR environment to aid astronauts in space walks . 
+                        This project was developed on the Microsoft
+                        Hololens using C# and the Unity game engine.
+                    </p>
+                    <div class="card-body d-flex justify-content-center ">
+                        <a href="https://www.youtube.com/watch?v=vCs_7i6I6sw" class="btn btn-primary zoom btn-aln" role="button">See the Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card space-in-col h-100">
+                <img class="card-img-top" src="images/designPatterns.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h2>LEXI: A Graphical Text Editor</h2>
+                    <p class="card-text">Lexi started as a project from an Object Oriented Design Patterns course. The goal of this project was to utilize
+                        OO Design Patterns to build the foundations of a text editor with an emphasis of reuseable code. This project was based on the Gang of Four's 
+                        classic Design Patterns text.
+                    </p>
+                </div>
+                <div class="card-body auto btn-aln">
+                    <a href="https://github.com/AJ-Trantham/Lexi" class="btn btn-primary zoom" role="button">See the Code</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card space-in-col h-100">
+                <img class="card-img-top" src="images/juce-logo-slider.png" alt="Card image cap">
+                <div class="card-body">
+                    <h2>Audio Plugins</h2>
+                    <p class="card-text">
+                        I am currently working on building DAW Audio Plugins with the JUCE Framework using C++.
+                        I will post more information when I have completed projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Electrical Engineering</h3>
+
+    <p>Projects Coming soon!</p>
+
+    <!-- <h3>Free-Lance: Web Dev and eCommerce</h3>
+
+    <p>Projects Coming soon!</p> -->
+
+</div>
+
+
+
+
+<!------------------------------------------------------------footer--------------------------------------------------------------->
+<footer id="footer" class="bg-secondary">
+    <div class="container text-center ">
+        <div class="row">
+            <!-- Social Medias Let's do icons-->
+            <div class="col-sm-4">
+                <h4>Let's Stay Connected</h4>
+                <div class="auto center-text">
+                    <a href="https://www.linkedin.com/in/aj-trantham/" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/channel/UCcE3G_ZhLmxV4fNTElT70tg" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/aj_trantham/" class="fa fa-instagram"></a>
+                    <a href="https://github.com/AJ-Trantham" class="fa fa-github"></a>
+                </div>
+                <p><a href='mailto:ajtrantham@gmail.com'>ajtrantham@gmail.com</a></p>
+            </div>
+
+            <div class="col-sm-8">
+                <h4>Navigation</h4>
+                <nav>
+                    <ul class=" footer-nav navbar-light " >
+                        <li class="">
+                            <a class="" href="index.html">About</a>
+                        </li>
+                        <li class="">
+                            <a class="active-foot" href="projects.html">Projects</a>
+                        </li>
+                        <li class="">
+                            <a class="" href="https://github.com/AJ-Trantham">Code</a>
+                        </li>
+                        <li class="">
+                                <a class="" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div id="copyright" class="row no-margin">
+            <p class="auto">&copy;AJ Trantham 2020</p>
+        </div>
+    </div>    
+</footer>
+</body>
+</html>

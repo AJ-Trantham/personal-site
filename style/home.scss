@@ -1,0 +1,32 @@
+// home.scss
+// compile with dart tool: dart compile-sass.dart style/file.scss style/file.css
+
+#home-preview {
+  height: 85vh;
+  background: url(me.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center -300px;
+  background-size: cover;
+}
+
+#home-preview-text {
+  margin: auto;
+  margin-top: 50vh;
+  width: 40%;
+  padding: 7px;
+  color:#feffff;
+  letter-spacing: -2px;
+  font-family: Georgia, sans-serif;
+  h1 {
+    font-size: 4em;
+    background: #9a959b;
+  }
+  h3 {
+    font-size: 2em;
+    background: #ac5d56;
+  }
+}
+
+
+

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    list-style: none;
+}
+
+/*@media only screen and (min-height: 600px) {
+  #home-preview {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-height: 800px) {
+  #home-preview {
+    height: 700px;
+  }
+}*/
+
+#home-preview {
+    height: 80vh;
+}
+
+#home-preview-text {
+    margin-top: 40vh;
+}
+
+.auto {
+    margin: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#newsletter {
+    text-align: left;
+}
+
+#newsletter button {
+    width: 100%;
+    
+}
+
+.fa {
+    padding: 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #ddd;
+}
